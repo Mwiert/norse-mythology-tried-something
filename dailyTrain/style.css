@@ -1,0 +1,203 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+#backgroundAlf{
+    background-image: url(https://alternatifdunyam.com/wp-content/uploads/2020/03/elf-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+#backgroundGir{
+    background-image: url(https://i.ibb.co/bRvP4bd/thor.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+#asgardBack{
+    background-image: url(https://i.ibb.co/Km9KC3G/asgard.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-position-y: -130px;
+}
+#vanaback{
+    background-image: url(https://turkcemitoloji.files.wordpress.com/2016/09/vanaheim-better.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+#svarfalback{
+    background-image: url(https://i.ibb.co/y8Q20DT/svarf.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+#Nilfback{
+    background-image: url(https://i.redd.it/qwsz8v1voc941.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+#jotunback{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/028/468/403/large/magdalena-jirku-jotunheimiscalling.jpg?1594576933);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+#musback{
+    background-image: url(https://pbs.twimg.com/media/D9YUPAjW4AAMDkV.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: 100%;
+}
+#midgardback{
+    background-image: url(https://birparcatuhaftik.com/wp-content/uploads/conor-burke-conorburke-vikingcataclysm.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+#bckHel{
+    background-image: url(https://i.ibb.co/Q8CdWLg/helheimback.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+#backgroundMain{
+    background-image: url(https://wallpapercave.com/wp/wp7327001.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+.menu-bar{
+    width: 100%;
+    background: rgba(218, 180, 180, 0.59);
+    text-align: center;
+    border: solid;
+    border-radius: 1.5rem;
+    margin-top: 2px;
+}
+#whatis h1{
+    margin-bottom: 50px;
+}
+h2{
+    color: rgba(255, 255, 255, 0.946);
+}
+.menu-bar ul{
+    margin: 5px;
+    display:inline-flex;
+    list-style:none;
+    flex-direction:row;
+}
+.topnav .icon {
+    display: none;
+  }
+.menu-bar ul li a {
+    
+    text-decoration: none;
+    font-family: 'Noto Serif' serif;
+    font: 1.4em Serif;
+    color: black;
+    font-weight: bold;
+}
+.menu-bar ul li{
+    width: 100%;
+    height: 1%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1.5rem;
+    border-color: transparent;
+}
+.menu-bar ul li:hover{
+    background: white;
+    transition: 1s;
+
+}
+.active{
+    background-color: rgb(240, 203, 157);;
+}
+.center-body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#mainLeftimg{
+    max-width: 100%;
+    max-height: 100%;
+    padding:2%;
+    border-radius: 10%;
+}
+#whatis{
+    padding:2% 0 2% 0;  /*ust sag alt sol*/
+    text-align: center;
+}
+#whatis a{
+    font-family: 'Noto Serif' serif;
+    font: 1.2em Serif;
+    color: black;
+    font-weight: italic ;
+    background: white;
+}
+.container{
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(34, 34, 34, 0.5);
+    color: #fff;
+    padding: 2rem;
+}
+.container h3{
+    margin-bottom: 2rem;
+}
+.form-control{
+    margin-bottom: 2rem;
+    position: relative;
+}
+.form-control button,
+.form-control input,
+ .form-control textarea{
+    padding: 0.5rem;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color:#fff;
+    font-size: 1rem;
+}
+.form-control button[type="submit"]{
+    background-color: blueviolet;
+    border: 0;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -o-transition: 300ms all;
+    padding: 1 0rem;
+}
+.form-control button[type="submit"]:hover{
+    background-color: crimson;
+}
+.form-control input~label,
+.form-control textarea~label{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 0.5rem;
+}
+.form-control input:focus ~label,
+.form-control textarea:focus ~label,
+.form-control input:valid ~label,
+.form-control textarea:valid ~label{
+    top:-1.5rem;
+    color: red;
+    font-size: 0.8rem;
+}
